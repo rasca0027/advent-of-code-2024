@@ -34,5 +34,5 @@ if __name__ == "__main__":
         left.append(int(l))
         right.append(int(r))
 
-    # print(calculate_distance(left, right))
-    print(calculate_similarity_score(left, right))
+    # print(calculate_distance(left, right))  # uncomment for part 1
+    print(calculate_similarity_score(left, right))  # uncomment for part 2
